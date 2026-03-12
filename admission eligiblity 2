@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int num;
+        int mark;
+        Scanner sc=new Scanner(System.in);
+        num=sc.nextInt();
+        mark=sc.nextInt();
+        if (num>=18&& mark>=40)
+        {
+            System.out.println("Eligible");
+        }
+     else 
+     {
+         System.out.println("Not Eligible");
+     }
+    }
+}
