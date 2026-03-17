@@ -1,0 +1,23 @@
+import java.util.*;
+ class Main {
+    public static void main(String[] args) {
+        int num,result;
+        result =0;
+        Scanner sc= new Scanner(System.in);
+        num=sc.nextInt();
+         while(num>=0){
+            int lastnum=num%10;
+            result=result+(lastnum*lastnum*lastnum);
+            num=num/10;
+         
+         }
+
+        if( result== num )
+        {
+        System.out.println("its armstrong"); 
+    }
+    else{
+        System.out.println("its not armstrong"); 
+    }
+}
+}
